@@ -1,0 +1,40 @@
+body{
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+nav{
+	background-color: #000;
+}
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li{
+	display: inline-block;
+}
+nav ul li a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 10px 40px;
+	transition: color 0.2s, background 0.7s;
+}
+nav ul li a:hover{
+	color: gray;
+	background-color: whitesmoke;
+}
+nav ul li ul{
+	border: 1px solid silver;
+	background-color: #000;
+	position: absolute;
+	display: none;
+}
+nav ul li ul li{
+	display: block;
+}
+nav ul li ul li a{
+	padding-left: 35px;
+	padding-right: 35px;
+}
